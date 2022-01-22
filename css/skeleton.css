@@ -328,13 +328,41 @@ th,
 td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid #E1E1E1; }
+  border-bottom: 1px solid #E1E1E1;
+}
+  
 th:first-child,
 td:first-child {
   padding-left: 0; }
 th:last-child,
 td:last-child {
   padding-right: 0; }
+
+/* Table Fixes */
+
+table {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+thead {
+    flex: 0 0 auto;
+}
+
+tbody {
+    flex: 1 1 auto;
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+tr {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    font-size: 1vmax;
+}
 
 
 /* Spacing
@@ -424,7 +452,7 @@ there.
 
 .tendie-logo {
   padding-right: 5px; 
-  max-height: 32px; 
-  max-width: 32px; 
+  max-height: 2vmax; 
+  max-width: 2vmax; 
   vertical-align: middle;
 }
