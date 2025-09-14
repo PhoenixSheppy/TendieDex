@@ -171,7 +171,7 @@ class TendieDx {
               <h4 class="text-lg font-bold mb-2 text-gray-800 dark:text-gray-200">About This Project:</h4>
               <p class="text-gray-600 dark:text-gray-400">
                 This project is entirely open-source! And 
-                <a href="https://github.com/PhoenixSheppy/TendieDx" class="text-primary hover:underline">available on Github!</a> 
+                <a href="https://github.com/PhoenixSheppy/TendieDex" class="text-primary hover:underline">available on Github!</a> 
                 I'm sure someone will want to do this with french fries or bread or something.
               </p>
             </div>
