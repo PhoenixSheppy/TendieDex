@@ -111,6 +111,28 @@ export const tendieData: TendieData = {
       rating: 2,
       price: "$",
       priceRange: "low"
+    },
+    {
+      name: "Kirkland Signature Lightly Breaded Chicken Breast Chunks",
+      logo: "kirkland-32.png",
+      flavor: "OK, lower-quality",
+      size: "Small, varies",
+      breading: "Light, Falls Off",
+      individuality: "Plain-Jane",
+      rating: 2,
+      price: "$",
+      priceRange: "low"
+    },
+    {
+      name: "Member's Mark Southern Style Chicken Bites",
+      logo: "membersmark-32.jpg",
+      flavor: "Literally tastes like pickles",
+      size: "Small, Fingerfood",
+      breading: "Light, Falls Off",
+      individuality: "Pickles",
+      rating: 1,
+      price: "$",
+      priceRange: "low"
     }
   ],
   fastFood: [
@@ -332,6 +354,17 @@ export const tendieData: TendieData = {
       size: "Great (Large)",
       breading: "Crunchy, Sweet",
       individuality: "Very Large Tenders, Well Cooked, Sweet Marinade",
+      rating: 4,
+      price: "$$",
+      priceRange: "high"
+    },
+    {
+      name: "Lotawata Creek",
+      logo: "lwc.png",
+      flavor: "Baked, Seasoned",
+      size: "Great (Large Quantity)",
+      breading: "Crunchy",
+      individuality: "Lots of Tenders, like ALOT.",
       rating: 4,
       price: "$$",
       priceRange: "high"

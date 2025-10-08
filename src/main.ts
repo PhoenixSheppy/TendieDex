@@ -21,8 +21,10 @@ class TendieDx {
   private setTheme(): void {
     if (this.isDarkMode) {
       document.documentElement.classList.add('dark');
+      document.body.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
+      document.body.classList.remove('dark');
     }
     localStorage.setItem('darkMode', this.isDarkMode.toString());
   }
@@ -161,10 +163,10 @@ class TendieDx {
             <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border border-gray-200 dark:border-gray-700">
               <p class="text-gray-700 dark:text-gray-300 mb-4">
                 That's it for now, I'll be updating this if I have any additional restaurants I visit and would like to add.
-                <br><strong>(Last Updated 09-14-2025, Begin Site Revamp)</strong>
+                <br><strong>(Last Updated 10-08-2025, Continue work on site revamp, new frozen, new restaurants)</strong>
               </p>
               <p class="text-gray-700 dark:text-gray-300 mb-4">
-                Hey there! Just popping in to say THANK YOU for the love I've received on this project over the last year! 
+                Hey there! Just chiming in to say THANK YOU for the love I've received on this project over the last year! 
                 I've gotten tons of compliments & suggestions! ❤️
               </p>
               

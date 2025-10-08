@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  /* Ensure proper dark mode transitions */
+  * {
+    @apply transition-colors duration-200;
+  }
+  
+  /* Fix body background in dark mode */
+  body {
+    @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+  }
+}
+
 @layer components {
   .star-rating {
     @apply flex items-center space-x-1;
@@ -16,7 +28,7 @@
   }
   
   .tendie-card {
-    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border border-gray-200 dark:border-gray-700 transition-all duration-200 hover:shadow-lg;
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md p-6 border border-gray-200 dark:border-gray-700 transition-all duration-200 hover:shadow-lg hover:shadow-gray-200 dark:hover:shadow-gray-800;
   }
   
   .price-badge {
@@ -24,18 +36,28 @@
   }
   
   .price-low {
-    @apply bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200;
+    @apply bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300;
   }
   
   .price-medium {
-    @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200;
+    @apply bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300;
   }
   
   .price-high {
-    @apply bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-200;
+    @apply bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-300;
   }
 
   .section-header {
     @apply text-2xl font-bold mb-6 text-gray-800 dark:text-gray-200 border-b-2 border-primary pb-2;
+  }
+  
+  /* Improve link styling in dark mode */
+  a {
+    @apply text-primary hover:text-secondary transition-colors duration-200;
+  }
+  
+  /* Better button styling */
+  button {
+    @apply transition-all duration-200;
   }
 }
