@@ -1,4 +1,4 @@
-# 🍗 TendieDex
+# TendieDex 🐔
 
 [![Designed with Kiro.dev](https://img.shields.io/badge/Designed%20with-Kiro.dev-6366f1?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMuODAwODEgMTguNTY2MUMxLjMyMzA2IDI0LjA1NzIgNi41OTkwNCAyNS40MzQgMTAuNDkwNCAyMi4yMjA1QzExLjYzMzkgMjUuODI0MiAxNS45MjYgMjMuMTM2MSAxNy40NjUyIDIwLjM0NDVDMjAuODU3OCAxNC4xOTE1IDE5LjQ4NzcgNy45MTQ1OSAxOS4xMzYxIDYuNjE5ODhDMTYuNzI0NCAtMi4yMDk3MiA0LjY3MDU1IC0yLjIxODUyIDIuNTk1ODEgNi42NjQ5QzIuMTExMzYgOC4yMTk0NiAyLjEwMjg0IDkuOTg3NTIgMS44Mjg0NiAxMS44MjMzQzEuNjkwMTEgMTIuNzQ5IDEuNTkyNTggMTMuMzM5OCAxLjIzNDM2IDE0LjMxMzVDMS4wMjg0MSAxNC44NzMzIDAuNzQ1MDQzIDE1LjM3MDQgMC4yOTk4MzMgMTYuMjA4MkMtMC4zOTE1OTQgMTcuNTA5NSAtMC4wOTk4ODAyIDIwLjAyMSAzLjQ2Mzk3IDE4LjcxODZWMTguNzE5NUwzLjgwMDgxIDE4LjU2NjFaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTAuOTYxNCAxMC40NDEzQzkuOTcyMDIgMTAuNDQxMyA5LjgyNDIyIDkuMjU4OTMgOS44MjQyMiA4LjU1NDA3QzkuODI0MjIgNy45MTc5MSA5LjkzODI0IDcuNDEyNCAxMC4xNTQyIDcuMDkxOTdDMTAuMzQ0MSA6LjgxMDAzIDEwLjYxNTggNi42NjY5OSAxMC45NjE0IDYuNjY2OTlDMTEuMzA3MSA2LjY2Njk5IDExLjYwMzYgNi44MTIyOCAxMS44MTI4IDcuMDk4OTJDMTIuMDUxMSA3LjQyNTU0IDEyLjE3NyA3LjkyODYxIDEyLjE3NyA4LjU1NDA3QzEyLjE3NyA5LjczNTkxIDExLjcyMjYgMTAuNDQxMyAxMC45NjE2IDEwLjQ0MTNIMTAuOTYxNFoiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGQ9Ik0xNS4wMzE4IDEwLjQ0MTNDMTQuMDQyMyAxMC40NDEzIDEzLjg5NDUgOS4yNTg5MyAxMy44OTQ1IDguNTU0MDdDMTMuODk0NSA3LjkxNzkxIDE0LjAwODYgNy40MTI0IDE0LjIyNDUgNy4wOTE5N0MxNC40MTQ0IDYuODEwMDMgMTQuNjg2MSA2LjY2Njk5IDE1LjAzMTggNi42NjY5OUMxNS4zNzc0IDYuNjY2OTkgMTUuNjczOSA2LjgxMjI4IDE1Ljg4MzEgNy4wOTg5MkMxNi4xMjE0IDcuNDI1NTQgMTYuMjQ3NCA3LjkyODYxIDE2LjI0NzQgOC41NTQwN0MxNi4yNDc0IDkuNzM1OTEgMTUuNzkzIDEwLjQ0MTMgMTUuMDMxOSAxMC40NDEzSDE1LjAzMThaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K&logoColor=white)](https://kiro.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -10,9 +10,9 @@
   <img src="https://raw.githubusercontent.com/PhoenixSheppy/TendieDex/refs/heads/main/doc/TendieDex-Banner-Github-Readme.png" alt="TendieDex Banner" style="max-height: 600px; width: auto;">
 </div>
 
-> *The ultimate chicken tender rating database - because someone has to keep track of who's doing it right.*
+> *Chicken Tenders, the most basic of foods, yet somehow restaurants manage to screw it up. *
 
-**TendieDex** is a comprehensive rating platform for chicken tenders, nuggets, and equivalent crispy chicken offerings from restaurants, fast food chains, and frozen food brands. After consuming way too many chicken tenders, it's time to create the definitive index of rankings based on flavor, texture, visual appeal, and overall restaurant experience.
+**TendieDex** is a comprehensive rating website for chicken tenders, nuggets, and equivalent crispy chicken offerings from restaurants, fast food chains, and frozen food brands. After consuming way too many chicken tenders, it's time to create the definitive index of rankings based on flavor, texture, visual appeal, and overall restaurant experience.
 
 ## 🌟 Features
 
