@@ -6,8 +6,8 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat-square&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-<div align="center">
-  <img src="doc/TendieDx-Banner-Github-Readme.png" alt="TendieDex Banner" style="max-height: 750px; width: auto;">
+<div>
+  <img src="https://raw.githubusercontent.com/PhoenixSheppy/TendieDex/refs/heads/main/doc/TendieDex-Banner-Github-Readme.png" alt="TendieDex Banner" style="max-height: 600px; width: auto;">
 </div>
 
 > *The ultimate chicken tender rating database - because someone has to keep track of who's doing it right.*
